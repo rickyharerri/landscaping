@@ -41,7 +41,7 @@ export function Hero({
         <div className="relative">
           <div className="aspect-[3/2] w-full overflow-hidden rounded-3xl shadow-xl ring-1 ring-brand-200">
             <Image
-              src={`${site.basePath}/hero-with-brand.webp`}
+              src={`${site.basePath}hero-with-brand.webp`}
               alt={`${site.name} — Calgary landscaping & snow removal`}
               width={1536}
               height={1024}

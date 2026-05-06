@@ -35,7 +35,7 @@ export function Header() {
             }}
           >
             <Image
-              src={`${site.basePath}/logo.png`}
+              src={`${site.basePath}logo.png`}
               alt={`${site.name} logo`}
               fill
               priority
