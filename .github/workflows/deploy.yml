@@ -18,8 +18,8 @@ jobs:
   build:
     runs-on: ubuntu-latest
     env:
-      NEXT_PUBLIC_BASE_PATH: /landscape
-      NEXT_PUBLIC_SITE_URL: https://${{ github.repository_owner }}.github.io/landscape
+      NEXT_PUBLIC_BASE_PATH: /  # Change from /landscape to / since you're using a subdomain
+      NEXT_PUBLIC_SITE_URL: https://landscape.getlogix.com
       NEXT_PUBLIC_FORMSPREE_ID: ${{ secrets.NEXT_PUBLIC_FORMSPREE_ID }}
       NEXT_PUBLIC_GA_ID: ${{ secrets.NEXT_PUBLIC_GA_ID }}
     steps:
