@@ -83,7 +83,7 @@ npm install
 npm run dev          # http://localhost:3000
 ```
 
-Production build (static export, output in `./out`):
+Production build (static export,   output in `./out`):
 
 ```bash
 NEXT_PUBLIC_SITE_URL=http://localhost:3000 \
