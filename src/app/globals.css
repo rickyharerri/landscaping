@@ -1,0 +1,61 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --brand: 63 110 45;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  @apply bg-white text-slate-800 antialiased;
+}
+
+@layer components {
+  .btn {
+    @apply inline-flex items-center justify-center gap-2 rounded-lg px-5 py-3 text-sm font-semibold transition focus:outline-none focus-visible:ring-2 focus-visible:ring-offset-2;
+  }
+  .btn-primary {
+    @apply btn bg-brand-600 text-white hover:bg-brand-700 focus-visible:ring-brand-600;
+  }
+  .btn-secondary {
+    @apply btn bg-white text-brand-700 ring-1 ring-inset ring-brand-200 hover:bg-brand-50 focus-visible:ring-brand-600;
+  }
+  .btn-ghost {
+    @apply btn text-brand-700 hover:bg-brand-50;
+  }
+  .container-tight {
+    @apply mx-auto w-full max-w-6xl px-4 sm:px-6 lg:px-8;
+  }
+  .section {
+    @apply py-14 sm:py-20;
+  }
+  .eyebrow {
+    @apply text-xs font-semibold uppercase tracking-widest text-brand-700;
+  }
+  .h1 {
+    @apply text-3xl font-extrabold tracking-tight text-slate-900 sm:text-4xl md:text-5xl;
+  }
+  .h2 {
+    @apply text-2xl font-bold tracking-tight text-slate-900 sm:text-3xl md:text-4xl;
+  }
+  .h3 {
+    @apply text-xl font-semibold tracking-tight text-slate-900 sm:text-2xl;
+  }
+  .lead {
+    @apply text-lg text-slate-600 sm:text-xl;
+  }
+  .card {
+    @apply rounded-2xl bg-white p-6 shadow-sm ring-1 ring-slate-200/70;
+  }
+}
+
+/* Reserve space at the bottom on mobile so the sticky CTA never covers content. */
+@media (max-width: 768px) {
+  body {
+    padding-bottom: 64px;
+  }
+}
