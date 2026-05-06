@@ -1,6 +1,6 @@
 export const site = {
   name: 'Urban Roots',
-  legalName: 'Urban Roots Ltd.',
+  legalName: 'Urban Roots Landscaping Inc.',
   tagline: 'Calgary Landscaping & Snow Removal',
   description:
     'Reliable Calgary landscaping company offering lawn care, sod installation, mulch & rock, fences & decks, yard cleanups, and snow removal. Free quotes, local crews, satisfaction guaranteed.',
