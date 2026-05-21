@@ -3,7 +3,7 @@ import Image from 'next/image';
 import { site } from '@/config/site';
 
 export function Hero({
-  eyebrow = 'Urbanroots Landscaping & Snow Removal',
+  eyebrow = 'Best Landscaping & Snow Removal',
   title,
   subtitle,
   primaryCta = { href: '/contact/', label: 'Get Free Quote' },

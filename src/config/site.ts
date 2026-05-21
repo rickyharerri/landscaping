@@ -4,7 +4,7 @@ export const site = {
   tagline: 'Calgary Landscaping & Snow Removal',
   description:
     'Reliable Calgary landscaping company offering lawn care, sod installation, mulch & rock, fences & decks, yard cleanups, and snow removal. Free quotes, local crews, satisfaction guaranteed.',
-  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://landscape.getlogix.com',
+  url: process.env.NEXT_PUBLIC_SITE_URL || 'https://bestlandscapings.com/',
   basePath: process.env.NEXT_PUBLIC_BASE_PATH || '',
   phone: '+1-587-966-9363',
   phoneDisplay: '(587) 966-9363',
