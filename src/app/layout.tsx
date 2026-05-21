@@ -4,6 +4,7 @@ import './globals.css';
 import { Header } from '@/components/Header';
 import { Footer } from '@/components/Footer';
 import { StickyMobileCTA } from '@/components/StickyMobileCTA';
+import WhatsAppButton from '@/components/WhatsAppButton';
 import { JsonLd, localBusinessJsonLd, buildMetadata } from '@/lib/seo';
 import { site } from '@/config/site';
 
@@ -41,6 +42,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
+        <WhatsAppButton />
         <StickyMobileCTA />
         {site.gaId ? (
           <>
